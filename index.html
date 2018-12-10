@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>UIkit</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<main>
+		<div class="flex">
+			<div class="flex column m-right-50">
+				<label>Name:
+					<input type="text" width="200"/>
+				</label>
+				<input type="text" placeholder="Name"/>
+				<label>E-mail:
+					<input type="email" value="my@name.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+				</label>
+				<label>E-mail:
+					<input type="email" value="my@namecom" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+				</label>
+			</div>
+			<div class="flex column m-right-50">
+				<form class="flex m-top-20">
+						<input type="checkbox" id="chk1" name="chk1">
+						<label for="chk1"></label>
+						<input type="checkbox" id="chk2" name="chk2" checked>
+						<label for="chk2"></label>
+				</form>
+			</div>
+			<div class="flex column">
+				<form class="flex m-top-20">
+						<input type="radio" id="rad1" name="rad1">
+						<label for="rad1"></label>
+						<input type="radio" id="rad2" name="rad1" checked >
+						<label for="rad2"></label>
+				</form>
+			</div>
+		</div>
+		<div class="flex">
+			<div class="flex column">
+				<div class="flex">
+					<button class="btn btn_left"></button>
+					<button class="btn btn_right"></button>
+				</div>			
+			</div>
+			<div class="flex column">
+				<div class="flex">
+					<button class="btn btn_left_round"></button>
+					<button class="btn btn_right_round"></button>
+				</div>
+			</div>
+		</div>
+		<div class="flex column">
+				<div class="flex">
+					<button class="btn_blue">Push me please</button>
+					<button class="btn_green">Push me please</button>
+				</div>
+				<div class="flex">
+					<button class="btn_blue btn_blue__hover">Push me please</button>
+					<button class="btn_green btn_green__hover">Push me please</button>
+				</div>
+				<div class="flex">
+					<button class="btn_blue btn_blue__active">Push me please</button>
+					<button class="btn_green btn_green__active">sPush me please</button>
+				</div>
+		</div>
+	</main>
+</body>
+</html>
